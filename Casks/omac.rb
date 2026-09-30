@@ -4,7 +4,7 @@ cask "omac" do
 
   url "https://github.com/rickndanger-ctrl/omac/releases/download/v#{version}/OMAC-#{version}.dmg"
   name "OMAC"
-  desc "Tiling window manager with its own terminal and a voice partner"
+  desc "Tiling window manager built for AI agents"
   homepage "https://rickndanger-ctrl.github.io/omac/"
 
   livecheck do
