@@ -9,10 +9,11 @@ cask "omac" do
 
   livecheck do
     url :url
+    regex(/^v?(\d+(?:\.\d+)+(?:-beta\d+)?)$/i)
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :ventura
 
   app "OMAC.app"
 
