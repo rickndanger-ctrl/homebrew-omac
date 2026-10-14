@@ -1,6 +1,6 @@
 cask "omac" do
-  version "0.9.0-beta28-rc67"
-  sha256 "636be25c3851ba2cdddb6d9e4371cf781eb170193256cd93f70ef6fe733b664f"
+  version "0.9.0-beta28-rc71"
+  sha256 "8f297d4a1a4c898a686b18933eb872aa8d3c8d90abfeac977eaed0f63caec1e0"
 
   url "https://github.com/rickndanger-ctrl/omac/releases/download/v#{version}/OMAC-#{version}.dmg"
   name "OMAC"
